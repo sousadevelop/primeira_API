@@ -1,0 +1,5 @@
+flowchart LR
+    A["HTTP client"] --> B["Express routes"]
+    B --> C["Controllers"]
+    C --> D["Sequelize models"]
+    D --> E["MySQL database"]
